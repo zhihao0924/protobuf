@@ -1,7 +1,7 @@
 # 生成php 代码
-rm -rf ./php/*
-touch ./php/README.md
-protoc --php_out=./php  --grpc_out=generate_server:./php \
+rm -rf ./src/*
+touch ./src/README.md
+protoc --php_out=./src  --grpc_out=generate_server:./src \
        --proto_path=./proto --plugin=protoc-gen-grpc=/opt/homebrew/bin/grpc_php_plugin \
         ./proto/**/*.proto
 

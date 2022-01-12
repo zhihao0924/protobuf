@@ -1,0 +1,10 @@
+{
+    "name": "hao/protobuf",
+    "autoload": {
+        "psr-4": {
+            "Hao\\Protobuf\\": "src/"
+        }
+    },
+    "authors": [],
+    "require": {}
+}
