@@ -1,10 +1,9 @@
 {
-    "name": "hao/protobuf",
+    "name": "zhihao/protobuf",
     "autoload": {
         "psr-4": {
-            "Hao\\Protobuf\\": "src/"
+            "Zhihao\\Protobuf\\": "src/"
         }
     },
-    "authors": [],
     "require": {}
 }
